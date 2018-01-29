@@ -68,28 +68,12 @@ padding: 11px;
 
 font-size:  16px;
 }
-/*
-.gallary:hover ul{
-    opacity: 1;
-}
-.gallary::before{
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0%;
-    height: 100%;
-    background: #48bbfed4;
-    transition: all 0.5s;
-}
-.gallary:hover::before{
-    width: 100%
-}*/
-
 .banner-section{
     background: url(../images/banner.png);
     height:  100vh;
-    position:  relative;}
+    position:  relative;
+    background-size: cover;
+}
 .banner-content{
 
 position:  absolute;
@@ -279,9 +263,11 @@ position:  relative;
 }
 .contact-section{
     background: url(../images/footer.png);
-    height:  100vh;
-    padding:  70px 0;
-    color:  white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding: 70px 0;
+    color: white;
 }
 .form{
     margin:  0 auto;
